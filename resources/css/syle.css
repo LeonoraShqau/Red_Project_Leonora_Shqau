@@ -1,0 +1,267 @@
+:root{
+    --colore-darkred: darkred;
+    --colore-salmone: #C67F7F;
+    --colore-panna: #ececec;
+}
+
+.citation{
+    height: 900px;
+    width: 100%;
+    background-color: var(--colore-panna);
+    z-index: 1;
+}
+.logo-piccolo{
+    height: 40px;
+    width: 55px;
+}
+.switzerland{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%), url("/public/img/sfondo.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+.grande-scritta{
+    font-family: 'Nova Square', sans-serif;
+    color: var(--colore-darkred);
+    font-size: 7em;
+    letter-spacing: 60px;
+
+}
+
+.whitemountains{
+    width: 100%;
+    height: 600px;
+    background-image: url(/public/img/mountains2.png);
+    background-size: cover;
+    z-index: 3;
+}
+.switzerland{
+    position: relative;
+}
+
+.whitemountains{
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+.citazione{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1em;
+}
+.virgoletta1{
+    height: 10px;
+    width: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.virgoletta2{
+    height: 10px;
+    width: 10px;
+    margin-top: 65px;
+    margin-right: 10px;
+}
+.snowflake{
+    height: 45px;
+    background-color: var(--colore-panna);
+}
+.squareMountain{
+    height: 45px;
+    background-color: var(--colore-panna);
+
+}
+.Map{
+    height: 45px;
+    background-color: var(--colore-panna);
+
+}
+.tent{
+    height: 45px;
+    background-color: var(--colore-panna);
+}
+.backcolor{
+    background-color: var(--colore-panna);
+    border-bottom: 4px solid darkred !important;
+    border-top: none ;
+    border-left: none ;
+    border-right: none;
+    border-radius: 0%;
+}
+.text-secondary-emphasis{
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+.text-secondary-emphasis::after{
+    content: '';
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    position: absolute;
+    bottom: -26px;
+    left: 60px;
+    background-color: var(--colore-panna);
+}
+.lorem-dolor{
+    padding-top: 150px;
+    margin-left: 0;
+    border: none;
+    background-color: var(--colore-panna);
+}
+.dolor-text{
+    font-family: 'Rajdhani', sans-serif;
+}
+.inverti-ordine{
+    text-align: right;
+}
+.titolino-lorem{
+    color: darkred;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+.imgtrees2{
+    background-image: url(/public/img/trees2.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--colore-panna);
+}
+
+
+.buttonG{
+    background-color: darkred;
+    color: white;
+    border: 0;
+    font-size: smaller;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    padding: 10px, 30px;
+}
+
+.h2G{
+    color: darkred;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.imgsingle{
+    background-image: url(/public/img/single.png);
+    background-color: white;
+    height: 500px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timeline{
+    border-left: 4px solid darkred;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.pallini{
+    position: relative;
+    color: darkred;
+}
+
+.pallini::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    position:absolute;
+    left: -32px;
+    top: 2px;
+    background-color: white;
+}
+
+.bg-cont{
+    min-height: 500px;
+    background-color: var(--colore-panna);
+}
+
+.titoletto{
+    color: darkred;
+    font-family: 'Nova Square', sans-serif; 
+}
+
+.contenitoreimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.cerchio{
+    height: 50%;
+    width: 50%;
+    border: 4px solid darkred;
+    padding: 5px;
+}
+
+.iconcine{
+    color: darkred;
+}
+
+.coloretesto{
+    color: darkred;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.scrittacard{
+    font-family: 'Nova Square', sans-serif;
+    font-style: oblique ;
+}
+.titolo3{
+    Color: darkred;
+    font-family: 'Nova Square', sans-serif;
+   }
+   .card{
+       background-color: var(--colore-panna);
+       border: transparent;
+   }
+   .cardm{
+       border: 4px solid darkred;
+       height: 200px;
+       width: 200px;
+       border-radius: 50%;
+       Color: darkred;
+       padding: 5px 5px 5px 5px ;
+       
+       }
+      .card-title {
+       color: darkred;
+       font-family: 'Nova Square', sans-serif;
+      }
+      .colore{
+       background-color: var(--colore-panna);
+       }   
+   .card-text{
+       font-family: 'Rajdhani', sans-serif;
+   }
+
+   .img-redtrees{
+    background-image: url(/public/img/other.png);
+    background-color: var(--colore-panna);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+   }
+
+   .bg-footer{
+    background-color: darkred;
+    }
+
+    .altezza{
+    height: 80px;
+    }
+
+    .footer-titolo{
+        font-family: 'Nova Square', sans-serif;
+    }
+    
+    .footer-testo{
+        font-family: 'Rajdhani', sans-serif;
+    }
