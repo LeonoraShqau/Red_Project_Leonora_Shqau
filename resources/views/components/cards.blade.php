@@ -2,31 +2,31 @@
 <div class="container my-5">
     <div class="row justify-content-around text-center">
         <!-- I° CARD -->
-        <div class="card col-6 col-lg-2 backcolor">
-            <img src="{{ asset('img/SNOWFLAKE.svg') }}" class="card-img-top size_color snowflake" alt="...">
+        <div class="card col-6 col-lg-2 backcolor d-flex justify-content-center">
+            <img src="{{ asset('img/check.png') }}" class="card-img-top size_color squareMountain" alt="...">
             <div class="card-body">
-                <h6 class="card-text text-secondary-emphasis Rajdhani">Lorem ipsum dolor</h6>
+                <h6 class="card-text text-secondary-emphasis Rajdhani">Rispetto</h6>
             </div>
         </div>
         <!-- II° CARD -->
-        <div class="card col-6 col-lg-2 backcolor">
-            <img src="{{ asset('img/squaremountain.svg') }}" class="card-img-top size_color squareMountain" alt="...">
+        <div class="card col-6 col-lg-2 backcolor d-flex justify-content-center">
+            <img src="{{ asset('img/check.png') }}" class="card-img-top size_color squareMountain" alt="...">
             <div class="card-body">
-                <h6 class="card-text text-secondary-emphasis  Rajdhani">Lorem ipsum dolor</h6>
+                <h6 class="card-text text-secondary-emphasis  Rajdhani">Responsabilità</h6>
             </div>
         </div>
         <!-- III° CARD -->
-        <div class="card col-6 col-lg-2 backcolor">
-            <img src="{{ asset('img/Map.svg') }}" class="card-img-top size_color Map" alt="...">
+        <div class="card col-6 col-lg-2 backcolor d-flex justify-content-center">
+            <img src="{{ asset('img/check.png') }}" class="card-img-top size_color squareMountain" alt="...">
             <div class="card-body">
-                <h6 class="card-text text-secondary-emphasis Rajdhani">Lorem ipsum dolor</h6>
+                <h6 class="card-text text-secondary-emphasis Rajdhani">Etica professionale</h6>
             </div>
         </div>
         <!-- IV° CARD -->
-        <div class="card col-6 col-lg-2 backcolor">
-            <img src="{{ asset('img/tent.svg') }}" class="card-img-top size_color tent" alt="...">
+        <div class="card col-6 col-lg-2 backcolor d-flex justify-content-center">
+            <img src="{{ asset('img/check.png') }}" class="card-img-top size_color squareMountain" alt="...">
             <div class="card-body">
-                <h6 class="card-text text-secondary-emphasis Rajdhani">Lorem ipsum dolor</h6>
+                <h6 class="card-text text-secondary-emphasis Rajdhani">Verità</h6>
             </div>
         </div>
     </div>
