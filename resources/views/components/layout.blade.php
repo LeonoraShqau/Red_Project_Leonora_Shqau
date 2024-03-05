@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/png">
     <title>
-        Lorem
+        The Post
     </title>
 </head>
 <body>

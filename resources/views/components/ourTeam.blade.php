@@ -1,18 +1,16 @@
 <div class="bg-cont">
     <div class="container-fluid bg-cont">
-        <h2 class="titoletto mt-0 mb-0 pt-5">OUR TEAM</h2>
+        <h2 class="titoletto mt-0 mb-0 pt-5">I NOSTRI GIORNALISTI</h2>
 
         <div class="row my-5 justify-content-center align-items-center">
 
             <div class="col-12 col-md-3">
                 <div class="text-center mx-auto d-block contenitore-img justify-content-center">
-                    <img class="cerchio img-fluid rounded-circle" src="http://picsum.photos/800"
+                    <img class="cerchio img-fluid rounded-circle" src="{{asset('img/donna2.jpeg')}}"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title my-4 coloretesto">Lorem Ipsum</h5>
-                        <p class="card-text scrittacard">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.
-                            Possimus eveniet similique expedita accusantium ad.</p>
+                        <h5 class="card-title my-4 coloretesto">Elena Rossi</h5>
+                        <p class="card-text scrittacard">Esperta di politica internazionale. Con uno stile incisivo, offre approfondimenti chiari e analisi penetranti che gettano luce sui temi globali cruciali.</p>
                         <div class="iconcine">
                             <i class="fa-brands fa-instagram mx-3"></i>
                             <i class="fa-brands fa-linkedin mx-3"></i>
@@ -24,13 +22,11 @@
 
             <div class="col-12 col-md-3">
                 <div class="text-center mx-auto d-block contenitore-img justify-content-center">
-                    <img class="cerchio img-fluid rounded-circle" src="http://picsum.photos/800"
+                    <img class="cerchio img-fluid rounded-circle" src="{{asset('img/Marco.jpg')}}"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title my-4 coloretesto">Lorem Ipsum</h5>
-                        <p class="card-text scrittacard">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.
-                            Possimus eveniet similique expedita accusantium ad.</p>
+                        <h5 class="card-title my-4 coloretesto">Marco Bianchi</h5>
+                        <p class="card-text scrittacard">Con uno sguardo attento alle ultime tendenze, traduce il linguaggio tecnico in storie coinvolgenti per un pubblico di tutti i livelli.</p>
                         <div class="iconcine">
                             <i class="fa-brands fa-instagram mx-3"></i>
                             <i class="fa-brands fa-linkedin mx-3"></i>
@@ -42,13 +38,11 @@
 
             <div class="col-12 col-md-3">
                 <div class="text-center mx-auto d-block contenitore-img justify-content-center">
-                    <img class="cerchio img-fluid rounded-circle" src="http://picsum.photos/800"
+                    <img class="cerchio img-fluid rounded-circle" src="{{asset('img/donna1.jpg')}}"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title my-4 coloretesto">Lorem Ipsum</h5>
-                        <p class="card-text scrittacard">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.
-                            Possimus eveniet similique expedita accusantium ad.</p>
+                        <h5 class="card-title my-4 coloretesto">Sofia Garcia</h5>
+                        <p class="card-text scrittacard">Una penna sensibile, racconta storie ispirate e interviste esclusive che portano i lettori nell'intimo universo degli artisti contemporanei.</p>
                         <div class="iconcine">
                             <i class="fa-brands fa-instagram mx-3"></i>
                             <i class="fa-brands fa-linkedin mx-3"></i>
@@ -60,12 +54,10 @@
 
             <div class="col-12 col-md-3">
                 <div class="text-center mx-auto d-block contenitore-img justify-content-center">
-                    <img class="cerchio img-fluid rounded-circle" src="http://picsum.photos/800" alt="...">
+                    <img class="cerchio img-fluid rounded-circle" src="{{asset('img/uomo2.jpg')}}" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title my-4 coloretesto">Lorem Ipsum</h5>
-                        <p class="card-text scrittacard">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.
-                            Possimus eveniet similique expedita accusantium ad.</p>
+                        <h5 class="card-title my-4 coloretesto">Alessio Romano</h5>
+                        <p class="card-text scrittacard">Dai consigli pratici alle esperienze culturali uniche, le sue narrazioni coinvolgenti e le foto mozzafiato ispirano l'esplorazione globale.</p>
                         <div class="iconcine">
                             <i class="fa-brands fa-instagram mx-3"></i>
                             <i class="fa-brands fa-linkedin mx-3"></i>
@@ -84,7 +76,7 @@
 <div class="container-fluid colore">
     <div class="row justify-content-center ">
         <div>
-            <h3 class="titolo3 mx-3 my-4">OUR BENEFIT</h3>
+            <h3 class="titolo3 mx-3 my-4">LE NOSTRE RECENSIONI</h3>
         </div>
         <div class="col col-lg-6 col-md-6 my-5">
             <div class="card">
