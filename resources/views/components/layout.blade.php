@@ -20,12 +20,12 @@
     <!-- INIZIO NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-white">
       <div class="container-fluid d-flex flex-column">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ route('home') }}">
           <img class="logo-piccolo" src="{{ asset('img/logo.png') }}" alt="">
         </a>
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item mx-lg-5 px-lg-5">
-            <a class="nav-link fw-lighter fs-6" aria-current="page" href="#">Primo link</a>
+            <a class="nav-link fw-lighter fs-6" aria-current="page" href="{{ route('PrimoLink') }}">Primo link</a>
           </li>
           <li class="nav-item mx-lg-5 px-lg-5">
             <a class="nav-link fw-lighter fs-6" href="#">Altro link</a>

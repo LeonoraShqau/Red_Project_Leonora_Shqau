@@ -15,3 +15,4 @@ use App\Http\Controllers\PublicController;
 */
 
 Route::get('/', [PublicController::class , 'home'])->name('home');
+Route::get('/PrimoLink', function () { return view('PrimoLink');})->name('PrimoLink');
