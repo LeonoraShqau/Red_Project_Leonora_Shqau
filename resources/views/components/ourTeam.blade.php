@@ -1,6 +1,6 @@
 <div class="bg-cont">
     <div class="container-fluid bg-cont">
-        <h2 class="titoletto mt-0 mb-0 pt-5">I NOSTRI GIORNALISTI</h2>
+        <h2 class="titoletto mt-4 mb-0 pt-5">I NOSTRI GIORNALISTI</h2>
 
         <div class="row my-5 justify-content-center align-items-center">
 

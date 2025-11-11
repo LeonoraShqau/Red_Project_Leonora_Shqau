@@ -21,6 +21,13 @@
     background-size: cover;
     z-index: 2;
 }
+.primoLinkFoto{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0) 100%), url("/public/img/podcast.jpg");
+    background-size: cover;
+    z-index: 2;
+}
 .grande-scritta{
     font-family: 'Nova Square', sans-serif;
     color: var(--colore-darkred);
@@ -179,9 +186,12 @@
     top: 2px;
     background-color: white;
 }
-
+.bgPodcast{
+    min-height: 0px;
+   background-color: var(--colore-panna) 
+}
 .bg-cont{
-    min-height: 500px;
+    min-height: 800px;
     background-color: var(--colore-panna);
 }
 
@@ -245,13 +255,31 @@
    }
 
    .img-redtrees{
-    background-image: url(/public/img/other.png);
+    background-image: 
+    linear-gradient(to bottom, var(--colore-panna) 0%, rgba(255, 255, 255, 0) 50%), 
+    url("/public/img/other.png");
     background-color: var(--colore-panna);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
    }
+   .sezione-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 60vh;      
+    padding-top: 100px;      
+}
+   .PodcastName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 10vh;      
+    padding-top: 50px;      
+}
 
    .bg-footer{
     background-color: darkred;
