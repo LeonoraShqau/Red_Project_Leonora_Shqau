@@ -28,7 +28,7 @@
             <a class="nav-link fw-lighter fs-6" aria-current="page" href="{{ route('PrimoLink') }}">Primo link</a>
           </li>
           <li class="nav-item mx-lg-5 px-lg-5">
-            <a class="nav-link fw-lighter fs-6" href="#">Altro link</a>
+            <a class="nav-link fw-lighter fs-6" href="{{ route('AltroLink') }}">Altro link</a>
           </li>
           <li class="nav-item mx-lg-5 px-lg-5">
             <a class="nav-link fw-lighter fs-6" href="#">Terzo link</a>

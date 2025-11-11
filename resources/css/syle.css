@@ -28,6 +28,14 @@
     background-size: cover;
     z-index: 2;
 }
+.altroLinkFoto{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0) 100%), url("/public/img/Nostrinumeri.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+
 .grande-scritta{
     font-family: 'Nova Square', sans-serif;
     color: var(--colore-darkred);
@@ -148,7 +156,16 @@
     padding: 10px;
     border-radius: 20px;
 }
+[data-counter] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
 
+[data-counter].active {
+  opacity: 1;
+  transform: translateY(0);
+}
 .h2G{
     color: darkred;
     font-family: 'Nova Square', sans-serif;
@@ -192,6 +209,10 @@
 }
 .bg-cont{
     min-height: 800px;
+    background-color: var(--colore-panna);
+}
+
+.bg-panna{
     background-color: var(--colore-panna);
 }
 
